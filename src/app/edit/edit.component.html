@@ -1,0 +1,21 @@
+
+<form (ngSubmit)='update()'>
+    <legend>Add Employee</legend>
+
+    <div class="form-group">
+        <label for="No">No</label>
+        <input [(ngModel)]="emp.No" type="text" class="form-control" id="No" name="No" placeholder="Enter No">
+    </div>
+    <div class="form-group">
+        <label for="No">Name</label>
+        <input  [(ngModel)]="emp.Name" type="text" class="form-control" id="Name" name="Name" placeholder="Enter Name">
+    </div>
+    
+    <div class="form-group">
+        <label for="No">Age</label>
+        <input  [(ngModel)]="emp.Age" type="text" class="form-control" id="Age" name="Age" placeholder="Enter Age">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+     
+</form>
